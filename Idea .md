@@ -21,14 +21,15 @@ The project is consists of smaller tasks which are described in the following:
 1. Implement a sign up and sign in functionality with all the necessary settings on Webflow and if
 necessary external plugins. We want users to be able to sign up, sign in, change their email,
 password, apply for jobs etc.
-Part 1:
+
+# Part 1:
 That’s the header (before the user signs in).
 That should be the header after a user signs in.
 The button “Anmelden” (Sign in) changes to “Abmelden” (Sign out) and the button “Berater
 werden” (Become a Consultant/Sign up) to “Mein Profil” (My profile).
 Important: If someone is not signed in and clicks on “Projekt finden” he or she should be
 redirected to the “Anmelden” page. Only signed in users are allowed to see that page.
-Part 2:
+# Part 2:
 That’s the “Berater werden” page
 Implement an upload functionality for CVs in PDF format (currently it’s just a text entry field). All
 the fields need to be filled and the box clicked in order to click on “Bewerbung versenden” (submit
@@ -77,7 +78,7 @@ user wants to delete the account he or she is required to click the box below. A
 account the user should be directed to another success page (see below).
 That’s the “Profil erfolg” page
 That’s the “Gelöscht erfolg” page
-Part 5:
+# Part 5:
 That’s the “Passwort vergessen” page in which users can reset their password
 If the user inputs an email address that does not exists they should receive a error message. If
 the email exists in the system the user should be redirect to the password success page (see
@@ -95,7 +96,7 @@ That’s the mail the user should receive if he or she clicks on the “Passwort
 That’s the “Passwort zurücksetzen” page in which users can create a new password
 After the user successfully resets their password they will be redirected to the “Mein Profil” page
 descripted in Part 3.
-Part 6:
+ # Part 6:
 This is the most important part of the project and needs to be if necessary adapted by the
 freelancer. We already created the elements shown below on our own.
 That should be the “Projekt finden” page in which users can see available jobs
